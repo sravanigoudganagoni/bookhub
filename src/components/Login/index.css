@@ -1,0 +1,152 @@
+.bg-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c4c4c4;
+  background-size: cover;
+  min-height: 100vh;
+}
+.login-page {
+  width: 50%;
+  height: 100vh;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 499px;
+  height: 484px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 18px;
+}
+.bookhub-logo {
+  width: 141px;
+  height: 48px;
+  margin-bottom: 30px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  font-size: 18px;
+  font-weight: 500;
+  color: #5a7184;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+.user-input {
+  width: 360px;
+  height: 56px;
+  border-radius: 8px;
+  border-width: 1px;
+  border-color: #c3cad9;
+  border-style: solid;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 15px;
+  outline: none;
+  cursor: pointer;
+}
+.login-button {
+  width: 360px;
+  height: 56px;
+  margin-top: 15px;
+  border-radius: 8px;
+  border-width: 0px;
+  border-style: solid;
+  background-color: #0284c7;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  outline: none;
+  cursor: pointer;
+}
+.error-message {
+  font-size: 15px;
+  font-weight: 500;
+  color: #ef4444;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 576px) {
+  .bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 10px;
+    width: 360px;
+    height: 640px;
+  }
+  .login-page {
+    width: 216px;
+    height: 216px;
+    border-radius: 100%;
+  }
+  .bookhub-logo {
+    width: 104px;
+    height: 28px;
+  }
+  .form-container {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+  }
+  .label {
+    font-size: 15px;
+    font-weight: 500;
+    color: #5a7184;
+    line-height: 1.2;
+    margin-bottom: 15px;
+  }
+  .user-input {
+    width: 312px;
+    height: 56px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: #c3cad9;
+    border-style: solid;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 15px;
+    outline: none;
+    cursor: pointer;
+  }
+  .login-button {
+    width: 312px;
+    height: 56px;
+    margin-top: 15px;
+    border-radius: 8px;
+    border-width: 0px;
+    border-style: solid;
+    background-color: #0284c7;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    outline: none;
+    cursor: pointer;
+  }
+  .error-message {
+    font-size: 15px;
+    font-weight: 500;
+    color: #ef4444;
+    line-height: 1.2;
+    margin-bottom: 15px;
+  }
+}
